@@ -2,25 +2,55 @@
 <head>
   <title></title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  
+  <link rel="stylesheet" href="mystyle.css">
+
+  <script type="text/javascript">
+    
+    function sorting(){
+      var jsChosen = "https://cdavis937.github.io/JavaScript-Sorting-Visualiser";
+      document.getElementById('p5js').src = jsChosen;
+      document.getElementById('p5js').style.display= 'block';
+    }
+
+    function target(){
+      var jsChosen = "https://cdavis937.github.io/Three-Target-Path-Finder";
+      document.getElementById('p5js').src = jsChosen;
+      document.getElementById('p5js').style.display= 'block';
+    }
+
+  </script>
+
 </head>
 <html>
-
-  
-
-
-
 <body style="margin: 0;">
   
+  <div class="horizontal">
+
+    <!-- Button Div-->
+    
+    <p class="horizontal">
+      <button class="button" onclick="sorting()">
+        Sorting Algorithims
+      </button>
   
+      <button class="button" onclick="target()">
+        Shortest Path 3 Targets
+      </button>
+    </p>
+      
+    
+    
+
+    <div class="container">
+      <iframe id="p5js" src="" height="85%" width="85%" style="display:none;"></iframe> 
+    </div>
+
+  </div>
+
 
 
     
-      <iframe src="https://cdavis937.github.io/JavaScript-Sorting-Visualiser" height="85%" width="85%"></iframe>
-    
-
-    
-      <iframe src="https://cdavis937.github.io/Three-Target-Path-Finder" height="85%" width="85%" ></iframe>
+      
     
 
 
