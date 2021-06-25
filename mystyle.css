@@ -3,6 +3,11 @@ html, body {
     margin: 0;
 }
 
+iframe {
+    margin: 0;
+    display: block;
+}
+
 #wrapper {
     min-height: 100%; 
 }
