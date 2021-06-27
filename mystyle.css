@@ -16,15 +16,14 @@ button {
 }
 
 .button {
-    margin:0 auto;
-
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
+    margin:10px auto;
+    background-color: #41B3A3; /* Green */
+    border: 5;
+    color: #E27D60;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
   }
 
@@ -35,14 +34,41 @@ button {
   }
 
 .horizontal {
-    align-content: center;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
+}
+
+.yellowgrad {
+    height: 100%; 
+    background: linear-gradient(to bottom right, #ccffff 0%, #41B3A3 100%);
+    text-align: center;
+}
+
+.pageheader {
+    
+    text-align: center;
+    background-color: #41B3A3;
+    height: 10%;
+}
+
+.headertext {
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 300%;
+    color: #E27D60;
+    padding: 0%;
+}
+
+.headertext2 {
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 125%;
+    color: #E27D60;
+    padding: 0%;
 }
 
 div {
-    height: 100%; 
-    background: linear-gradient(to bottom right, #ccffff 0%, #ffff00 100%);
+    
 }
 
 #wrapper {
