@@ -10,23 +10,6 @@ iframe {
     border: none;
 }
 
-button {
-    margin:0 auto;
-    display:block;
-}
-
-.button {
-    margin:10px auto;
-    background-color: #41B3A3; /* Green */
-    border: 5;
-    color: #E27D60;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-  }
-
 .container {
     display: flex;
     align-items: center;
@@ -38,14 +21,13 @@ button {
     margin: 0 auto;
 }
 
-.yellowgrad {
-    height: 100%; 
-    background: linear-gradient(to bottom right, #ccffff 0%, #41B3A3 100%);
-    text-align: center;
+.fullsize {
+    margin: 0;
+    height: 100%;
 }
 
+/* This is the header section of my page*/
 .pageheader {
-    
     text-align: center;
     background-color: #41B3A3;
     height: 10%;
@@ -67,8 +49,98 @@ button {
     padding: 0%;
 }
 
-div {
+/*This is the about me section of my CSS*/
+.aboutmediv {
+    height: 50%;
+    background: linear-gradient(to bottom, #41b3a3 0%, #e27d60 100%);
+    width: 100%;
+    text-align: center; 
+}
+
+.aboutmeheader {
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+    color: #E27D60;
+    padding: 0%;
+}
+
+.aboutmetext {
+    width: 75%;
+    margin: auto;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 150%;
+    color: black;
+    padding: 0%;
+}
+
+.columnhalf {
+    float: left;
+    width: 35%;
+    padding: 5px;
+    margin: 0;
     
+}
+
+/* This is the photo section of my CSS */
+.photoheader {
+        background-color: #41B3A3;
+        text-align: center;
+}
+    
+.photodiv {
+        height: 100%;
+        background: linear-gradient(to bottom, #41b3a3 0%, #e27d60 100%);
+        width: 100%;  
+}
+
+.headertext4 {
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+    color: #E27D60;
+    padding: 0%;
+}
+
+.column {
+        float: left;
+        width: 31.45%;
+        padding: 5px;
+        margin: 0;
+}
+      
+.row::after {
+        content: "";
+        clear: both;
+        display: block;
+}
+
+/* This is the javascript section of my CSS*/
+.javascriptdiv {
+    height: 100%; 
+    background: linear-gradient(to bottom, #e27d60 0%, #66ffcc 100%);
+    text-align: center;
+}
+
+.headertext3 {
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+    color: #41B3A3;
+    padding: 0%;
+}
+
+.button {
+    margin:10px auto;
+    background-color: #41B3A3; /* Green */
+    border: 5;
+    color: #E27D60;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #wrapper {
