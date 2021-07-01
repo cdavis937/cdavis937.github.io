@@ -31,9 +31,9 @@
 
   <header>
     <ul>
-      <li><a href="#"><p class="navBar">About</p></a></li>
-      <li><a href="#"><p class="navBar">Javascript</p></a></li>
-      <li><a href="#"><p class="navBar">Photos</p></a></li>
+      <li><a href="#About"><p class="navBar">About</p></a></li>
+      <li><a href="#Javascript"><p class="navBar">Javascript</p></a></li>
+      <li><a href="#Photos"><p class="navBar">Photos</p></a></li>
     </ul>
   </header>
   <section class="banner"></section>
@@ -53,7 +53,7 @@
 </div>
 
   <!-- This is the about me section of my page -->
-  <div class="aboutmediv">
+  <div class="aboutmediv" id="About">
     <p class="aboutmeheader">
       About Me
     </p>
@@ -77,7 +77,7 @@
   </div>
 
   <!-- This is the javascript sketch section of my page -->
-  <div class ="horizontal javascriptdiv">
+  <div class ="horizontal javascriptdiv" id="Javascript">
 
     <p class="headertext3">Javascript Sketches</p>
 
@@ -97,7 +97,7 @@
   </div>
 
   <!-- This is the photo section of my page-->
-  <div class="photoheader">
+  <div class="photoheader" id="Photos">
     <p class="headertext4">Photos</p>
   </div>
   
@@ -121,8 +121,16 @@
   </div>
 
     
-      
-    
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $("header ul li a").on('click', function(){
+        $("html, body").animate({
+          scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+      });
+    });
+  </script>
 
 
   
