@@ -28,6 +28,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <body style="margin: 0;">
+
+  <header>
+    <ul>
+      <li><a href="#"><p class="navBar">About</p></a></li>
+      <li><a href="#"><p class="navBar">Javascript</p></a></li>
+      <li><a href="#"><p class="navBar">Photos</p></a></li>
+    </ul>
+  </header>
+  <section class="banner"></section>
+  
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script>
   
 <div class="pageheader">
 
