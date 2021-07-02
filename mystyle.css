@@ -48,6 +48,7 @@ header.sticky {
     height: .5vh;
     background: #fff;
     transition: .6s;
+    border-radius: 0 0 0 25px;
 }
 
 header ul {
@@ -153,7 +154,8 @@ header.sticky ul li a {
 .photodiv {
         max-height: 100%;
         background: linear-gradient(to bottom, #41b3a3 0%, #e27d60 100%);
-        max-width: 100%;  
+        max-width: 100%;
+        margin: 0;  
 }
 
 .headertext4 {
@@ -208,4 +210,32 @@ header.sticky ul li a {
 
 #wrapper {
     min-height: 100%; 
+}
+
+/* This is the resume portion of my CSS */
+
+
+
+/* This is the contact me portion of my CSS */
+
+.contactMe {
+    margin: 0;
+    display: inline-block;
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to bottom, #e27d60 0%, #66ffcc 100%);
+    font-size: 0;
+}
+
+.contactsHeader {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
+    color: #66ffcc;
+    font-size: 2vw;
+}
+
+.contactsText {
+    color: black;
+    font-size: 1vw;
 }
