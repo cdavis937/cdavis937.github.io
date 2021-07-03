@@ -71,8 +71,9 @@ header ul li a {
     text-decoration: none;
     color: #e27d60;
     letter-spacing: 2px;
-    font-weight: 500px;
+    font-size: 1vw;
     transition: .6s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .banner {
@@ -86,6 +87,8 @@ header ul li a {
 
 header.sticky ul li a {
     color: #e27d60;
+    font-size: 1vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* This is the header section of my page*/
@@ -147,13 +150,13 @@ header.sticky ul li a {
 
 /* This is the photo section of my CSS */
 .photoheader {
-        background-color: #41B3A3;
+        background-color: #E8A87c;
         text-align: center;
 }
     
 .photodiv {
         max-height: 100%;
-        background: linear-gradient(to bottom, #41b3a3 0%, #e27d60 100%);
+        background: linear-gradient(to bottom, #E8A87c 0%, #85dcb8 100%);
         max-width: 100%;
         margin: 0;  
 }
@@ -162,7 +165,7 @@ header.sticky ul li a {
     margin: 0;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2vw;
-    color: #E27D60;
+    color: #66ffcc;
     padding: 0%;
 }
 
@@ -183,7 +186,7 @@ header.sticky ul li a {
 /* This is the javascript section of my CSS*/
 .javascriptdiv {
     height: 100%; 
-    background: linear-gradient(to bottom, #e27d60 0%, #66ffcc 100%);
+    background: linear-gradient(to bottom, #66ffcc 0%, #E8A87c 100%);
     text-align: center;
 }
 
@@ -191,7 +194,7 @@ header.sticky ul li a {
     margin: 0;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2vw;
-    color: #41B3A3;
+    color: #E8A87c;
     padding: 0%;
 }
 
@@ -206,6 +209,7 @@ header.sticky ul li a {
     display: block;
     font-size: 1vw;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 1vh 1vh 1vh 1vh;
 }
 
 #wrapper {
@@ -222,7 +226,7 @@ header.sticky ul li a {
 }
 
 .resumeHeader {
-    color: #66ffcc;
+    color: #41B3A3;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size: 2vw;
@@ -237,13 +241,13 @@ header.sticky ul li a {
     width: 100%;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(to bottom, #e27d60 0%, #66ffcc 100%);
+    background: linear-gradient(to bottom, #85dcb8 0%, #C38D9B 100%);
     font-size: 0;
 }
 
 .contactsHeader {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
-    color: #66ffcc;
+    color: #E27D60;
     font-size: 2vw;
 }
 
