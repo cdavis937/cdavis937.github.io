@@ -276,6 +276,7 @@ header.sticky ul li a {
 }
 
 .contactsHeader {
+    margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
     color: #E27D60;
     font-size: 2vw;
