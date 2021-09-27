@@ -148,6 +148,36 @@ header.sticky ul li a {
     
 }
 
+/* This is the coding projects section of my CSS */
+.codeHeader {
+    color: #41B3A3;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 2vw;
+    margin: 0;
+}
+
+.codeText {
+    max-width: 75%;
+    margin: auto;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1vw;
+    color: black;
+    padding: 0%;
+    text-align: center;
+}
+
+.codeDiv {
+    margin: 0;
+    display: inline-block;
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to bottom, #e27d60 0%, #e27d60 100%);
+    font-size: 0;
+}
+
 /* This is the photo section of my CSS */
 .photoheader {
         background-color: #E8A87c;
